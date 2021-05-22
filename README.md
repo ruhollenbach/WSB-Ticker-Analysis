@@ -1,0 +1,1 @@
+If you have a list of Ticker Symbols that you are interested in you can run all the 'WSB...' programs by simply replacing "Tickers.txt" in the CommonStock variable by whatever name you gave your list of Tickers. If you do not have a list already, you can run MergeTickers. This will create the txt-file Tickers.txt that is used in all other programs.
