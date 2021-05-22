@@ -105,8 +105,7 @@ for t in tmp[:10]:
 
 ##### For each Ticker in the TOP10 we get historic stock data from Yahoofinance and calculate the
 ##### possible return if we bought the stock at 'startdatum' and sold 180 days later. (Note that 'end' below 
-##### is actually the last stock price available on Yahoo finance, i.e. if 'enddatum2' is in the future,
-##### then 'end' will be the stock price at the current date)
+##### is either the stockprice after 180 days or the last stock price available on Yahoo finance if 'enddatum2' is in the future)
     
 for tip in Top:
     try:
